@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('profile7.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+
+#box {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+  
+}
+
+.left {
+    width: 40%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.right {
+    width: 60%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .left {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+
+    .right {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+}
+
+label {
+    margin-left: 90px;
+}
+
+input {
+    margin-left: 50px;
+}
